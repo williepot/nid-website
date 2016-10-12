@@ -10,7 +10,7 @@
                 margin: 0px;
                 padding: 14px 0px 14px 20px;
                 border-top: 1px solid #cfcfcf;
-            }         
+            }
             #cat {
                 height: 49px;
                 line-height: 49px;
@@ -44,7 +44,7 @@
         padding-top: 8px !important;
         border-top: none;
         &-heading {
-            display: none; 
+            display: none;
         }
     }
     #myCarousel {
@@ -131,7 +131,7 @@
     .custom-panel-container {
         flex-direction: column;
     }
-    
+
     #myCarousel {
     height: 230px !important;
     }
@@ -205,33 +205,76 @@
 
 
 
+@media only screen and (min-width: 600px) and (max-width : 850px) {
+
+  .product {
+    padding: 20px !important;
+      &-video {
+          order: 4 !important;
+          width: 50% !important;
+      }
+      &-description {
+          order: 3 !important;
+          width: 50% !important;
+      }
+      &-buy {
+          order: 2 !important;
+      }
+  }
+
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 599px) {
+
+  .product {
+    padding: 10px !important;
+      &-group {
+          order: 1 !important;
+          width: 100% !important;
+      }
+      &-video {
+          order: 2;
+          width: 100% !important;
+      }
+      &-description {
+          order: 3 !important;
+          width: 100% !important;
+      }
+      &-buy {
+          order: 4 !important;
+          width: 100% !important;
+      }
+  }
+
+}
 
 
 
 
+@media only screen and (max-width: 419px) {
 
+  .product {
+    padding: 10px !important;
+      &-group {
+        width: 100% !important;
+          &-picture {
+            width: 100% !important;
+          }
+          &-properties {
+            width: 100% !important;
+          }
+      }
+      &-video {
+          width: 100% !important;
+      }
+      &-description {
+          width: 100% !important;
+      }
+      &-buy {
+          width: 100% !important;
+      }
 
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

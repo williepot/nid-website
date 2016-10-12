@@ -27,7 +27,7 @@
                         height: auto;
                         text-align: center;
                     }
-                } 
+                }
             }
         }
         #social-media {
@@ -117,9 +117,9 @@
     margin: 5px 0px 10px 0px;
     padding: 20px 15px 15px 15px;
     @include standard-box-border;
-    
+
     background-color: snow;
-    
+
     &-container {
         display: flex;
         flex-wrap: wrap;
@@ -137,7 +137,7 @@
             padding: 10px;
             height: auto;
             text-align: center;
-        }      
+        }
         .cust-thumbnail {
             width: 100%;
             height: 100%;
@@ -152,8 +152,8 @@
                 width: 100%;
                 padding-top: 15px;
             }
-        }     
-        
+        }
+
         #about-text {
            text-align: justify;
         }
@@ -177,49 +177,16 @@
     &-button {
         width: 45%;
         border-radius: 0px;
+        font-size: 1.5em;
     }
 }
 
 
 
 
-/*
 .product {
     margin: 5px 0px 10px 0px;
-    padding: 20px 15px 15px 15px;
-    @include standard-box-border;
-    background-color: snow;
-    &-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-    &-heading {
-        padding: 10px;
-    }
-    &-video {
-        top: 0px;
-        bottom: 0px;
-    }
-    &-picture {
-        display: block;
-        margin: auto;
-        max-width: 100%;
-        padding: 10px;
-    }
-    &-properties {
-        padding: 10px;
-    }
-}
-
-*/
-
-
-
-.product {
-    margin: 5px 0px 10px 0px;
-    padding: 15px;
+    padding: 45px;
     @include standard-box-border;
     background-color: snow;
     &-container {
@@ -227,24 +194,23 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        border: 1px solid red;
     }
     &-group {
         display: flex;
+        order: 1;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 60%;
-        border: 1px solid red;
         &-heading {
+          order: 5;
             width: 100%;
             padding: 1em;
-            border: 1px solid blue;
         }
         &-picture {
+            order: 6;
             width: 50%;
             padding: 1em;
-            border: 1px solid blue;
             img {
                 display: block;
                 margin: auto;
@@ -252,61 +218,32 @@
             }
         }
         &-properties {
+            order: 7;
             width: 50%;
             padding: 1em;
             text-align: center;
-            border: 1px solid blue;
         }
     }
     &-video {
+        order: 2;
         width: 40%;
         padding: 0.5em;
-        border: 1px solid blue;
     }
     &-description {
+        order: 3;
         width: 60%;
         padding: 1em;
-        border: 1px solid blue;
     }
     &-buy {
+        order: 4;
         width: 40%;
         text-align: center;
-        border: 1px solid blue;
+        padding: 20px;
+        &-price {
+          padding: 20px;
+        }
+        &-button {
+
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
