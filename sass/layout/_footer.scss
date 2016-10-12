@@ -1,0 +1,58 @@
+.footer {    
+    width: 100%;
+    margin-top: 5px;
+    width: 100%;      
+    &-top {
+        height: 150px;
+                
+        background: #fd746c; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        #container {
+            padding-top: 34px;
+            &-social-box {
+                margin-bottom: 15px;
+            }
+            &-nav-box {
+
+            }
+        }
+    }
+    &-bottom {
+        height: 40px;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 14px;
+        color: white;
+
+        background: #485563; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    }
+    &-social {
+        list-style-type: none;
+        text-align: center;
+        @include zero-padding-margin;
+        &-icon {
+            display: inline;
+            padding: 0px 5px 0px 5px;
+            height: 48px !important;
+            
+            img {
+                width: 48px;
+            }
+        }
+    }
+    &-nav {
+        list-style-type: none;
+        text-align: center;
+        @include zero-padding-margin;
+        &-link {
+            display: inline;
+            text-align: center;
+            padding: 40px 10px 0px 10px;
+            color: #485563;
+        }
+    }
+}

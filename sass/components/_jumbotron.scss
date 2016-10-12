@@ -1,0 +1,79 @@
+.jumbotron {
+    &-text {
+        padding: 60px 10px 0px 10px;
+        text-align: center;
+        width: 60%
+    }
+    
+    &-heading {
+        color: white !important;
+        font-family: Fugaz One;
+        margin-top: 0px;
+    }
+    
+    &-paragraph {
+        color: white !important;
+        font-family: Fugaz One;
+    }
+    
+    &-image {
+        width: 40%;
+        text-align: center;
+        &-delivery {
+            width: 220px;
+            padding-top: 30px;
+        }
+    }
+    
+}
+
+#vector-art {
+    &-delivery {
+        width: 220px;
+        padding-top: 30px;
+    }
+}
+
+#cust-jumbotron {
+    @include standard-box-border;
+    width: 100%;
+    max-height: 200px;
+    padding: 0px 10px 0px 10px !important;
+    margin: 0px 5px 5px 0px;
+    border-radius: 0px !important;
+    border-left: none;
+
+    background: #834d9b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #834d9b , #d04ed6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #834d9b , #d04ed6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

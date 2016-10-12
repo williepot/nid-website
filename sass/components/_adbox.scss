@@ -1,0 +1,8 @@
+.adbox {
+    &-small {
+        @include standard-box-border;
+        min-width: 300px !important;
+        min-height: 200px !important;
+        margin: 0px 0px 5px 5px;
+    }
+}

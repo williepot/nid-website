@@ -1,0 +1,170 @@
+.navbar-customize {
+    @include zero-padding-margin;
+    width: 100%;
+    border-radius: 0em;
+    border-bottom: $navbar-border-size solid $navbar-border-color !important;
+    #menu-item {
+        border-top: 0px !important;
+    }
+    div {
+        ul {
+            li {            
+                a{
+                    font-family: $navbar-font;
+                    color: $navbar-font-color;
+                    font-size: $navbar-item-font-size;
+                    font-weight: $navbar-item-font-weight;
+                    width: 100%;
+                    &:hover {
+                        color: $navbar-item-color-hover !important;
+                    }
+                    &:focus {
+                        color: $navbar-item-color-focus !important;
+                        background-color: $navbar-color !important;
+                    }
+                    &:active {
+                        color: $navbar-item-color-active !important;
+                        background-color: $navbar-color !important;
+                    }
+                    
+                }
+            }
+        }
+    }
+    /* Dropdown category styling START */
+    #cat {
+        color: $navbar-font-color;
+        background-color: $navbar-item-cat-background;
+        padding: $navbar-item-cat-padding;
+        font-size: $navbar-item-cat-font-size;
+        &:hover {
+            background-color: $navbar-item-cat-background-hover;
+        }
+    }
+    /* Dropdown category styling END */
+    
+    /* Dropdown sub-menu styling START */
+    #sub {
+        color: $navbar-font-color;
+        background-color: $navbar-item-sub-background;
+        padding: $navbar-item-sub-padding;
+        font-size: $navbar-item-sub-font-size;
+        &:hover {
+            background-color: $navbar-item-sub-background-hover;
+        }
+    }
+    /* Dropdown sub-menu styling END */
+}
+
+/* VERY IMPORTANT MODIFIER FOR USING JUSTIFIED NAVBAR!!! */
+.navbar-nav {
+    li {
+        float: none;
+    }
+}
+/* MODIFIER END */
+
+
+.dropdown-menu {
+    @include standard-box-border;
+    width: 100%;
+    padding: 0em;
+    border-top: none;
+    margin-top: 0.2em !important;
+}
+
+
+
+
+
+
+/* Navbar header for mobile navbar START */
+.navbar-container {
+    @include zero-padding-margin;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    &-left {
+        padding: 4px 0px 0px 12px;
+        text-align: left;
+        flex-grow: 1;
+        font-size: 28px;
+        line-height: 28px;
+        @include link-styling($navbar-font-color, $navbar-item-color-hover, $navbar-item-color-focus, $navbar-item-color-active);
+    }
+    &-center {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        flex-grow: 1;
+        font-size: 20px;
+        font-family: Sarina;
+        @include link-styling($navbar-font-color, $navbar-item-color-hover, $navbar-item-color-focus, $navbar-item-color-active);
+    }
+    &-right {
+        padding: 0px 15px 0px 0px;
+        text-align: right;
+        flex-grow: 1;
+        font-size: 18px;
+        line-height: 18px;
+        @include link-styling($navbar-font-color, $navbar-item-color-hover, $navbar-item-color-focus, $navbar-item-color-active);
+    }
+}
+/* Navbar header for mobile navbar END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

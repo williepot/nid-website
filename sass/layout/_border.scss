@@ -1,0 +1,10 @@
+//Configure Bootstrap container and rows START
+.container {
+    width: 100%;
+    @include zero-padding-margin;
+    .row {
+        width: 100%;
+        @include zero-padding-margin;
+    }
+}
+//Configure Bootstrap container and rows END

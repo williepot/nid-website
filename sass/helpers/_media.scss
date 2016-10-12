@@ -1,0 +1,237 @@
+//Mobile breakpont media query START
+@media only screen and (max-width : 785px) {
+    #custNavbar {
+        padding: 0px;
+        ul {
+            padding: 0px;
+            margin: 0px;
+            #menu-item {
+                text-align: left;
+                margin: 0px;
+                padding: 14px 0px 14px 20px;
+                border-top: 1px solid #cfcfcf;
+            }         
+            #cat {
+                height: 49px;
+                line-height: 49px;
+                padding: 0px 0px 0px 40px;
+                border-top: 1px solid #cfcfcf;
+            }
+            #sub {
+                display: none;
+            }
+        }
+    }
+    .navbar-container-center {
+        display: none;
+    }
+    #cart {
+        display: none;
+    }
+}
+//Mobile breakpont media query END
+
+
+@media only screen and (max-width : 465px) {
+    .header-background {
+        display: none;
+    }
+    .navbar-container-center {
+        display: block;
+    }
+    #social-media {
+        margin-top: 0px;
+        padding-top: 8px !important;
+        border-top: none;
+        &-heading {
+            display: none; 
+        }
+    }
+    #myCarousel {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width : 520px) {
+    #newsletter {
+        height: $panel-height*1.25;
+        &-heading {
+            display: none;
+        }
+    }
+    .iconbar-container {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    #newsletter-inputform {
+        padding-left: 0px !important;
+        padding-right: 3px !important;
+    }
+    #newsletter-submit-button {
+        padding-right: 0px !important;
+        padding-left: 3px !important;
+    }
+    #newsletter-heading-mobile {
+        display: block !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 645px) {
+    .header {
+        &-content {
+            &-left {
+                img {
+                    height: 45px;
+                }
+            }
+            &-right {
+                img {
+                    height: 45px;
+                }
+            }
+        }
+        &-background {
+            height: 76px !important;
+        }
+    }
+}
+
+@media only screen and (max-width : 565px) {
+    .header-content {
+        &-left {
+            display: none;
+        }
+        &-right {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width : 821px) {
+    #social-media {
+        border-right: none;
+        margin-bottom: 5px !important;
+        margin-right: 0px !important;
+        width: 100%;
+    }
+    #newsletter {
+        border-left: none;
+        margin-top: 5px !important;
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .custom-panel-container {
+        flex-direction: column;
+    }
+    
+    #myCarousel {
+    height: 230px !important;
+    }
+
+    .item {
+    height: 230px !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 760px) {
+    .adbox {
+        &-small {
+            display: none;
+        }
+    }
+    .jumbotron {
+        margin-right: 0px !important;
+        &-text {
+            width: 100% !important;
+            padding-top: 20px !important;
+        }
+        &-image {
+            display: none;
+        }
+    }
+    #cust-jumbotron {
+        border-right: none !important;
+    }
+}
+
+
+@media only screen and (min-width: 761px) and (max-width : 893px) {
+    .jumbotron {
+        &-text {
+            padding-top: 45px !important;
+        }
+        &-image {
+            &-delivery {
+                width: 160px !important;
+                padding-top: 45px !important;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 455px) and (max-width : 862px) {
+    .popular-container-product {
+        width: 50% !important;
+    }
+    .cust-thumbnail {
+        img {
+            height: 20vw !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 454px) {
+    .popular-container-product {
+        width: 100% !important;
+    }
+    .cust-thumbnail {
+        img {
+            height: 40vw !important;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
