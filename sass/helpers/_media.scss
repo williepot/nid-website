@@ -209,6 +209,9 @@
 
   .product {
     padding: 20px !important;
+      &-group {
+        width: 70% !important;
+      }
       &-video {
           order: 4 !important;
           width: 50% !important;
@@ -218,6 +221,7 @@
           width: 50% !important;
       }
       &-buy {
+          width: 30% !important;
           order: 2 !important;
       }
   }
