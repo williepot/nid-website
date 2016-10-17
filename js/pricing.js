@@ -10,9 +10,9 @@ var products = {
 
 
 $(document).ready(function(){
-    
+
     $.each(products, function(i, val) {
-        $("#prod-" + i).append(val);       
+        $("#prod-" + i).append(val);
     });
-    
+
 });

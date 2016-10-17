@@ -503,44 +503,54 @@
 #newsletter-signup-btn {
   border-radius: 0px !important; }
 
+/*
 .popular {
-  margin: 5px 0px 10px 0px;
-  padding: 20px 15px 15px 15px;
-  border: 1px solid #d2d5d5;
-  box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2);
-  background-color: snow; }
-  .popular-container {
-    display: flex;
-    flex-wrap: wrap; }
-    .popular-container-heading {
-      font-family: Gloria Hallelujah;
-      color: firebrick;
-      width: 100%;
-      margin: 0px;
-      padding-bottom: 10px;
-      text-align: center; }
-    .popular-container-product {
-      width: 25%;
-      margin: 0px;
-      padding: 10px;
-      height: auto;
-      text-align: center; }
-    .popular-container .cust-thumbnail {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      border-radius: 0px;
-      padding: 13px 0px 0px 0px;
-      border: 1px solid #d2d5d5;
-      box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2); }
-      .popular-container .cust-thumbnail img {
-        height: 15vw; }
-      .popular-container .cust-thumbnail #buttons {
-        width: 100%;
-        padding-top: 15px; }
-    .popular-container #about-text {
-      text-align: justify; }
+    margin: 5px 0px 10px 0px;
+    padding: 20px 15px 15px 15px;
+    @include standard-box-border;
 
+    background-color: snow;
+
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+        &-heading {
+            font-family: Gloria Hallelujah;
+            color: firebrick;
+            width: 100%;
+            margin: 0px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        &-product {
+            width: 25%;
+            margin: 0px;
+            padding: 10px;
+            height: auto;
+            text-align: center;
+        }
+        .cust-thumbnail {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            border-radius: 0px;
+            padding: 13px 0px 0px 0px;
+            @include standard-box-border;
+            img {
+                height: 15vw;
+            }
+            #buttons {
+                width: 100%;
+                padding-top: 15px;
+            }
+        }
+
+        #about-text {
+           text-align: justify;
+        }
+    }
+}
+*/
 #product-name {
   font-family: Gloria Hallelujah;
   color: firebrick;
@@ -606,6 +616,56 @@
     padding: 20px; }
     .product-buy-price {
       padding: 20px; }
+
+.popular {
+  margin: 5px 0px 10px 0px;
+  padding: 20px 15px 15px 15px;
+  border: 1px solid #d2d5d5;
+  box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2);
+  background-color: snow; }
+  .popular-container {
+    display: flex;
+    flex-wrap: wrap; }
+    .popular-container-heading {
+      font-family: Gloria Hallelujah;
+      color: firebrick;
+      width: 100%;
+      margin: 0px;
+      padding-bottom: 10px;
+      text-align: center; }
+    .popular-container-product {
+      width: 25%;
+      margin: 0px;
+      padding: 10px;
+      height: auto;
+      text-align: center; }
+    .popular-container .cust-thumbnail {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 13px 0px 0px 0px;
+      background-color: white;
+      border: 1px solid #d2d5d5;
+      box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2); }
+      .popular-container .cust-thumbnail-top {
+        height: 80%;
+        flex-grow: 2; }
+      .popular-container .cust-thumbnail-bottom {
+        flex-grow: 1;
+        padding-bottom: 13px; }
+      .popular-container .cust-thumbnail img {
+        height: 15vw; }
+      .popular-container .cust-thumbnail #buttons {
+        width: 100%;
+        padding-top: 20px; }
+      .popular-container .cust-thumbnail:hover {
+        border: 1px solid #fba69c;
+        box-shadow: 0 0.0625em 0.3125em rgba(254, 87, 87, 0.9); }
+    .popular-container #about-text {
+      text-align: justify; }
 
 .jumbotron-text {
   padding: 60px 10px 0px 10px;
