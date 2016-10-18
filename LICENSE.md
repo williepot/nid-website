@@ -1,2 +1,2 @@
 
-Copyright (C) 2016 williepot
+Copyright (C) 2016 Willie Potgieter
