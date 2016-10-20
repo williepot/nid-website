@@ -9,17 +9,18 @@
         background: #DD5E89;
         background: -webkit-linear-gradient(to right, #DD5E89 , #F7BB97);
         background: linear-gradient(to right, #DD5E89 , #F7BB97);
-*/       
-        
+*/
+
         background: #fd746c; /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     }
     &-bar {
         height: 40px;
         width: 100%;
-        
+
         background: #485563; /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
@@ -72,4 +73,3 @@
     &Paragraph {
     }
 }
-
