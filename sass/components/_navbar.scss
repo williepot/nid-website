@@ -8,7 +8,7 @@
     }
     div {
         ul {
-            li {            
+            li {
                 a{
                     font-family: $navbar-font;
                     color: $navbar-font-color;
@@ -26,7 +26,7 @@
                         color: $navbar-item-color-active !important;
                         background-color: $navbar-color !important;
                     }
-                    
+
                 }
             }
         }
@@ -42,7 +42,7 @@
         }
     }
     /* Dropdown category styling END */
-    
+
     /* Dropdown sub-menu styling START */
     #sub {
         color: $navbar-font-color;
@@ -80,6 +80,7 @@
 
 /* Navbar header for mobile navbar START */
 .navbar-container {
+    @include flexbox-display-flex;
     @include zero-padding-margin;
     display: inline-flex;
     justify-content: center;
@@ -112,59 +113,3 @@
     }
 }
 /* Navbar header for mobile navbar END */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

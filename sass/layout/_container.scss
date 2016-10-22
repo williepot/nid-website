@@ -1,6 +1,7 @@
 .cust-flex {
     &-inline {
         &-container {
+            @include flexbox-display-flex;
             display: inline-flex;
             width: 100%;
             height: 100%;
@@ -11,12 +12,12 @@
     }
     &-std {
         &-container {
+            @include flexbox-display-flex;
             display: flex;
             border: 1px solid blue;
             &-item {
-                
+
             }
         }
     }
 }
-

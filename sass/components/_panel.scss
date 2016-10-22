@@ -1,5 +1,6 @@
 .custom-panel {
     &-container {
+        @include flexbox-display-flex;
         display: inline-flex;
         justify-content: center;
         align-items: center;
@@ -86,6 +87,7 @@
 
 
 .form-container {
+    @include flexbox-display-flex;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -180,12 +182,14 @@
     @include standard-box-border;
     background-color: snow;
     &-container {
+        @include flexbox-display-flex;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
     &-group {
+        @include flexbox-display-flex;
         display: flex;
         order: 1;
         justify-content: center;
