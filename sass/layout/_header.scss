@@ -35,6 +35,7 @@
         align-items: center;
         &-left {
             @include zero-padding-margin;
+            @include flexbox-grow(1);
             flex-grow: 1;
             height: auto;
             width: 100%;
@@ -43,6 +44,7 @@
         }
         &-center {
             @include zero-padding-margin;
+            @include flexbox-grow(1);
             flex-grow: 1;
             height: auto;
             width: 100%;
@@ -61,6 +63,7 @@
         }
         &-right {
             @include zero-padding-margin;
+            @include flexbox-grow(1);
             flex-grow: 1;
             height: auto;
             width: 100%;

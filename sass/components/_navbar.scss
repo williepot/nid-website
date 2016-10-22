@@ -88,6 +88,7 @@
     height: 50px;
     width: 100%;
     &-left {
+        @include flexbox-grow(1);
         padding: 4px 0px 0px 12px;
         text-align: left;
         flex-grow: 1;
@@ -96,6 +97,7 @@
         @include link-styling($navbar-font-color, $navbar-item-color-hover, $navbar-item-color-focus, $navbar-item-color-active);
     }
     &-center {
+        @include flexbox-grow(1);
         padding: 0px 0px 0px 0px;
         text-align: center;
         flex-grow: 1;
@@ -104,6 +106,7 @@
         @include link-styling($navbar-font-color, $navbar-item-color-hover, $navbar-item-color-focus, $navbar-item-color-active);
     }
     &-right {
+        @include flexbox-grow(1);
         padding: 0px 15px 0px 0px;
         text-align: right;
         flex-grow: 1;

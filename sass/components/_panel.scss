@@ -8,6 +8,7 @@
         height: auto;
         width: 100%;
         &-item {
+            @include flexbox-grow(1);
             flex-grow: 1;
             @include standard-box-border;
             height: $panel-height;
@@ -16,6 +17,7 @@
             margin: 10px 5px 10px 5px;
             .iconbar {
                 &-container {
+                    @include flexbox-display-flex;
                     display: inline-flex;
                     justify-content: center;
                     align-items: center;
@@ -24,6 +26,7 @@
                     margin: 0px;
                     padding: 5px;
                     &-item {
+                        @include flexbox-grow(1);
                         flex-grow: 1;
                         height: auto;
                         text-align: center;
@@ -104,54 +107,7 @@
     border-radius: 0px !important;
 }
 
-/*
-.popular {
-    margin: 5px 0px 10px 0px;
-    padding: 20px 15px 15px 15px;
-    @include standard-box-border;
 
-    background-color: snow;
-
-    &-container {
-        display: flex;
-        flex-wrap: wrap;
-        &-heading {
-            font-family: Gloria Hallelujah;
-            color: firebrick;
-            width: 100%;
-            margin: 0px;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        &-product {
-            width: 25%;
-            margin: 0px;
-            padding: 10px;
-            height: auto;
-            text-align: center;
-        }
-        .cust-thumbnail {
-            width: 100%;
-            height: 100%;
-            margin: 0px;
-            border-radius: 0px;
-            padding: 13px 0px 0px 0px;
-            @include standard-box-border;
-            img {
-                height: 15vw;
-            }
-            #buttons {
-                width: 100%;
-                padding-top: 15px;
-            }
-        }
-
-        #about-text {
-           text-align: justify;
-        }
-    }
-}
-*/
 
 #product {
     &-name {

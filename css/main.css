@@ -248,6 +248,14 @@
     .header-content-left {
       padding: 0em 0em 0em 0em !important;
       margin: 0em 0em 0em 0em !important;
+      -webkit-box-flex: 1;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      -moz-box-flex: 1;
+      /* OLD - Firefox 19- */
+      -webkit-flex: 1;
+      /* Chrome */
+      -ms-flex: 1;
+      /* IE 10 */
       flex-grow: 1;
       height: auto;
       width: 100%;
@@ -256,6 +264,14 @@
     .header-content-center {
       padding: 0em 0em 0em 0em !important;
       margin: 0em 0em 0em 0em !important;
+      -webkit-box-flex: 1;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      -moz-box-flex: 1;
+      /* OLD - Firefox 19- */
+      -webkit-flex: 1;
+      /* Chrome */
+      -ms-flex: 1;
+      /* IE 10 */
       flex-grow: 1;
       height: auto;
       width: 100%;
@@ -274,6 +290,14 @@
     .header-content-right {
       padding: 0em 0em 0em 0em !important;
       margin: 0em 0em 0em 0em !important;
+      -webkit-box-flex: 1;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      -moz-box-flex: 1;
+      /* OLD - Firefox 19- */
+      -webkit-flex: 1;
+      /* Chrome */
+      -ms-flex: 1;
+      /* IE 10 */
       flex-grow: 1;
       height: auto;
       width: 100%;
@@ -402,6 +426,14 @@
   height: 50px;
   width: 100%; }
   .navbar-container-left {
+    -webkit-box-flex: 1;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;
+    /* OLD - Firefox 19- */
+    -webkit-flex: 1;
+    /* Chrome */
+    -ms-flex: 1;
+    /* IE 10 */
     padding: 4px 0px 0px 12px;
     text-align: left;
     flex-grow: 1;
@@ -416,6 +448,14 @@
     .navbar-container-left:active {
       color: #cb2424 !important; }
   .navbar-container-center {
+    -webkit-box-flex: 1;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;
+    /* OLD - Firefox 19- */
+    -webkit-flex: 1;
+    /* Chrome */
+    -ms-flex: 1;
+    /* IE 10 */
     padding: 0px 0px 0px 0px;
     text-align: center;
     flex-grow: 1;
@@ -430,6 +470,14 @@
     .navbar-container-center:active {
       color: #cb2424 !important; }
   .navbar-container-right {
+    -webkit-box-flex: 1;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;
+    /* OLD - Firefox 19- */
+    -webkit-flex: 1;
+    /* Chrome */
+    -ms-flex: 1;
+    /* IE 10 */
     padding: 0px 15px 0px 0px;
     text-align: right;
     flex-grow: 1;
@@ -461,6 +509,14 @@
   height: auto;
   width: 100%; }
   .custom-panel-container-item {
+    -webkit-box-flex: 1;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;
+    /* OLD - Firefox 19- */
+    -webkit-flex: 1;
+    /* Chrome */
+    -ms-flex: 1;
+    /* IE 10 */
     flex-grow: 1;
     border: 1px solid #d2d5d5;
     box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2);
@@ -469,6 +525,14 @@
     width: auto;
     margin: 10px 5px 10px 5px; }
     .custom-panel-container-item .iconbar-container {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -477,6 +541,14 @@
       margin: 0px;
       padding: 5px; }
       .custom-panel-container-item .iconbar-container-item {
+        -webkit-box-flex: 1;
+        /* OLD - iOS 6-, Safari 3.1-6 */
+        -moz-box-flex: 1;
+        /* OLD - Firefox 19- */
+        -webkit-flex: 1;
+        /* Chrome */
+        -ms-flex: 1;
+        /* IE 10 */
         flex-grow: 1;
         height: auto;
         text-align: center; }
@@ -551,54 +623,6 @@
 #newsletter-signup-btn {
   border-radius: 0px !important; }
 
-/*
-.popular {
-    margin: 5px 0px 10px 0px;
-    padding: 20px 15px 15px 15px;
-    @include standard-box-border;
-
-    background-color: snow;
-
-    &-container {
-        display: flex;
-        flex-wrap: wrap;
-        &-heading {
-            font-family: Gloria Hallelujah;
-            color: firebrick;
-            width: 100%;
-            margin: 0px;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        &-product {
-            width: 25%;
-            margin: 0px;
-            padding: 10px;
-            height: auto;
-            text-align: center;
-        }
-        .cust-thumbnail {
-            width: 100%;
-            height: 100%;
-            margin: 0px;
-            border-radius: 0px;
-            padding: 13px 0px 0px 0px;
-            @include standard-box-border;
-            img {
-                height: 15vw;
-            }
-            #buttons {
-                width: 100%;
-                padding-top: 15px;
-            }
-        }
-
-        #about-text {
-           text-align: justify;
-        }
-    }
-}
-*/
 #product-name {
   font-family: Gloria Hallelujah;
   color: firebrick;
