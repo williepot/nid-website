@@ -146,6 +146,7 @@
     }
     &-group {
         @include flexbox-display-flex;
+        @include flexbox-order(1);
         display: flex;
         order: 1;
         justify-content: center;
@@ -153,11 +154,13 @@
         flex-wrap: wrap;
         width: 60%;
         &-heading {
-          order: 5;
+            @include flexbox-order(5);
+            order: 5;
             width: 100%;
             padding: 1em;
         }
         &-picture {
+            @include flexbox-order(6);
             order: 6;
             width: 50%;
             padding: 1em;
@@ -168,6 +171,7 @@
             }
         }
         &-properties {
+            @include flexbox-order(7);
             order: 7;
             width: 50%;
             padding: 1em;
@@ -175,16 +179,19 @@
         }
     }
     &-video {
+        @include flexbox-order(2);
         order: 2;
         width: 40%;
         padding: 0.5em;
     }
     &-description {
+        @include flexbox-order(3);
         order: 3;
         width: 60%;
         padding: 1em;
     }
     &-buy {
+        @include flexbox-order(4);
         order: 4;
         width: 40%;
         text-align: center;
@@ -201,32 +208,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .popular {
     margin: 5px 0px 10px 0px;
     padding: 20px 15px 15px 15px;
@@ -235,6 +216,7 @@
     background-color: snow;
 
     &-container {
+        @include flexbox-display-flex;
         display: flex;
         flex-wrap: wrap;
         &-heading {
@@ -253,6 +235,7 @@
             text-align: center;
         }
         .cust-thumbnail {
+            @include flexbox-display-flex;
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -267,6 +250,7 @@
               flex-grow: 2;
             }
             &-bottom {
+              @include flexbox-grow(1);
               flex-grow: 1;
               padding-bottom: 13px;
             }

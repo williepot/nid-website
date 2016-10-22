@@ -128,7 +128,7 @@
         margin-left: 0px !important;
         width: 100%;
     }
-    
+
     .custom-panel-container {
         flex-direction: column;
     }
@@ -214,14 +214,17 @@
         width: 70% !important;
       }
       &-video {
+          @include flexbox-order(4);
           order: 4 !important;
           width: 50% !important;
       }
       &-description {
+          @include flexbox-order(3);
           order: 3 !important;
           width: 50% !important;
       }
       &-buy {
+          @include flexbox-order(2);
           width: 30% !important;
           order: 2 !important;
       }
@@ -235,18 +238,22 @@
   .product {
     padding: 10px !important;
       &-group {
+          @include flexbox-order(1);
           order: 1 !important;
           width: 100% !important;
       }
       &-video {
+          @include flexbox-order(2);
           order: 2;
           width: 100% !important;
       }
       &-description {
+          @include flexbox-order(3);
           order: 3 !important;
           width: 100% !important;
       }
       &-buy {
+          @include flexbox-order(4);
           order: 4 !important;
           width: 100% !important;
       }

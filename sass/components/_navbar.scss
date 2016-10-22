@@ -90,7 +90,7 @@
     &-left {
         @include flexbox-grow(1);
         padding: 4px 0px 0px 12px;
-        text-align: left;
+        text-align: left !important;
         flex-grow: 1;
         font-size: 28px;
         line-height: 28px;
@@ -99,7 +99,7 @@
     &-center {
         @include flexbox-grow(1);
         padding: 0px 0px 0px 0px;
-        text-align: center;
+        text-align: center !important;
         flex-grow: 1;
         font-size: 20px;
         font-family: Sarina;
@@ -108,7 +108,7 @@
     &-right {
         @include flexbox-grow(1);
         padding: 0px 15px 0px 0px;
-        text-align: right;
+        text-align: right !important;
         flex-grow: 1;
         font-size: 18px;
         line-height: 18px;
