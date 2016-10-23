@@ -233,13 +233,6 @@
   /* TWEENER - IE 10 */
   display: -webkit-flex;
   /* NEW - Chrome */
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   display: inline-flex;
   width: 100%;
   height: 100%; }
@@ -252,13 +245,6 @@
   /* TWEENER - IE 10 */
   display: -webkit-flex;
   /* NEW - Chrome */
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   display: flex;
   border: 1px solid blue; }
 
@@ -309,13 +295,6 @@
     /* TWEENER - IE 10 */
     display: -webkit-flex;
     /* NEW - Chrome */
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
     height: 100%;
     width: 100%;
     padding: 0px 15px 0px 15px;
@@ -495,13 +474,6 @@
   /* TWEENER - IE 10 */
   display: -webkit-flex;
   /* NEW - Chrome */
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   padding: 0em 0em 0em 0em !important;
   margin: 0em 0em 0em 0em !important;
   display: inline-flex;
@@ -586,13 +558,6 @@
   /* TWEENER - IE 10 */
   display: -webkit-flex;
   /* NEW - Chrome */
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   display: -webkit-flex;
   /* Safari */
   -webkit-flex-wrap: wrap;
@@ -628,13 +593,6 @@
       /* TWEENER - IE 10 */
       display: -webkit-flex;
       /* NEW - Chrome */
-      -webkit-box-orient: horizontal;
-      -moz-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -moz-box-direction: normal;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -712,13 +670,6 @@
   /* TWEENER - IE 10 */
   display: -webkit-flex;
   /* NEW - Chrome */
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -762,13 +713,6 @@
     /* TWEENER - IE 10 */
     display: -webkit-flex;
     /* NEW - Chrome */
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
     display: -webkit-flex;
     /* Safari */
     -webkit-flex-wrap: wrap;
@@ -786,13 +730,6 @@
     /* TWEENER - IE 10 */
     display: -webkit-flex;
     /* NEW - Chrome */
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
     -webkit-box-ordinal-group: 1;
     /* OLD - iOS 6-, Safari 3.1-6 */
     -moz-box-ordinal-group: 1;
