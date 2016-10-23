@@ -216,7 +216,7 @@
     background-color: snow;
 
     &-container {
-        @include flexbox-display-flex;
+      ///  @include flexbox-display-flex;
         display: flex;
         flex-wrap: wrap;
         &-heading {
@@ -235,7 +235,7 @@
             text-align: center;
         }
         .cust-thumbnail {
-            @include flexbox-display-flex;
+        //    @include flexbox-display-flex;
             display: flex;
             flex-direction: column;
             width: 100%;
@@ -250,7 +250,7 @@
               flex-grow: 2;
             }
             &-bottom {
-              @include flexbox-grow(1);
+        //      @include flexbox-grow(1);
               flex-grow: 1;
               padding-bottom: 13px;
             }
