@@ -1,6 +1,7 @@
 .custom-panel {
     &-container {
         @include flexbox-display-flex;
+        @include flexbox-wrap;
         display: inline-flex;
         justify-content: center;
         align-items: center;
@@ -139,6 +140,7 @@
     background-color: snow;
     &-container {
         @include flexbox-display-flex;
+        @include flexbox-wrap;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -147,6 +149,7 @@
     &-group {
         @include flexbox-display-flex;
         @include flexbox-order(1);
+        @include flexbox-wrap;
         display: flex;
         order: 1;
         justify-content: center;
@@ -217,6 +220,7 @@
 
     &-container {
       ///  @include flexbox-display-flex;
+        @include flexbox-wrap;
         display: flex;
         flex-wrap: wrap;
         &-heading {

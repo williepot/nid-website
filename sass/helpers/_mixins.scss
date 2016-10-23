@@ -47,4 +47,9 @@
   -ms-flex-order: $order;              /* TWEENER - IE 10 */
   -webkit-order: $order;               /* NEW - Chrome */
 }
+
+@mixin flexbox-wrap {
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+}
 //Flexbox mixins END
