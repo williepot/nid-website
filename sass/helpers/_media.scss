@@ -98,6 +98,13 @@
             height: 76px !important;
         }
     }
+
+    .panel {
+      &-info {
+        width: 100% !important;
+      }
+    }
+
 }
 
 @media only screen and (max-width : 565px) {
@@ -164,6 +171,13 @@
     #cust-jumbotron {
         border-right: none !important;
     }
+
+    .form {
+      &-content {
+        width: 100% !important;
+      }
+    }
+    
 }
 
 
@@ -236,7 +250,19 @@
 @media only screen and (min-width: 420px) and (max-width: 599px) {
 
   .product {
-    padding: 10px !important;
+    padding: 10px !important;.panel {
+  &-group {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  &-info {
+    width: 60%;
+    align-self: center;
+  }
+}
       &-group {
           @include flexbox-order(1);
           order: 1 !important;

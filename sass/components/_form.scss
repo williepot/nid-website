@@ -1,0 +1,38 @@
+.form {
+  &-container {
+    display: flex;
+    width: 100%;
+  }
+  &-content {
+    width: 50%;
+  }
+  &-button {
+    flex-grow: 1;
+    border-radius: 0px;
+    &-container {
+      display: flex;
+      width: 100%;
+      .btn-success {
+        margin-right: 0.125em;
+      }
+      .btn-danger {
+        margin-left: 0.125em;
+      }
+    }
+  }
+  &-group {
+    width: 100%;
+    #fullname {
+      width: 45%;
+      min-width: 190px;
+    }
+    #email {
+      width: 45%;
+      min-width: 190px;
+    }
+    #subject {
+      width: 35%;
+      min-width: 195px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.panel {
+  &-group {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  &-info {
+    width: 60%;
+    align-self: center;
+  }
+}
