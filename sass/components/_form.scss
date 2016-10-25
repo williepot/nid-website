@@ -22,15 +22,15 @@
   }
   &-group {
     width: 100%;
-    #fullname {
+    .fullname {
       width: 45%;
-      min-width: 190px;
+      min-width: 240px;
     }
-    #email {
+    .email {
       width: 45%;
-      min-width: 190px;
+      min-width: 240px;
     }
-    #subject {
+    .subject {
       width: 35%;
       min-width: 195px;
     }

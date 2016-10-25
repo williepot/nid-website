@@ -1074,13 +1074,13 @@ td {
       margin-left: 0.125em; }
 .form-group {
   width: 100%; }
-  .form-group #fullname {
+  .form-group .fullname {
     width: 45%;
-    min-width: 190px; }
-  .form-group #email {
+    min-width: 240px; }
+  .form-group .email {
     width: 45%;
-    min-width: 190px; }
-  .form-group #subject {
+    min-width: 240px; }
+  .form-group .subject {
     width: 35%;
     min-width: 195px; }
 
