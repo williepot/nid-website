@@ -16,5 +16,5 @@ Message: ".$message."
 ";
 
 mail("willie658@gmail.com", "WEB-CONTACT: " + $subject, $email_message);
-
+header("Location: index.php");
 ?>
