@@ -105,6 +105,21 @@
       }
     }
 
+    .deal {
+      &-content {
+        flex-direction: column !important;
+        &-offer {
+          &-info {
+            div {
+              width: 90% !important;
+            }
+          }
+        }
+      }
+    }
+
+
+
 }
 
 @media only screen and (max-width : 565px) {
@@ -147,6 +162,7 @@
     .item {
     height: 230px !important;
     }
+
 }
 
 
@@ -177,7 +193,7 @@
         width: 100% !important;
       }
     }
-    
+
 }
 
 
@@ -313,6 +329,43 @@
           width: 100% !important;
       }
 
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 645px) and (max-width : 821px) {
+  .deal {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+
+  .deal {
+    &-content {
+      &-picture {
+        width: 100% !important;
+      }
+      &-offer {
+        &-container {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+@media only screen and (max-width: 330px) {
+
+  .deal {
+    width: 100% !important;
   }
 
 }
