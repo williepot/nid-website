@@ -5,7 +5,12 @@ var products = {
     "amado-shireru": "$TBA",
     "bsecret-cream": "$TBA",
     "bsecret-mask": "$TBA",
-    "bsecret-congasia": "$TBA"
+    "bsecret-congasia": "$TBA",
+    "deal-1" : "$TBA",
+    "deal-2" : "$TBA",
+    "deal-3" : "$TBA",
+    "deal-4" : "$TBA",
+    "deal-5" : "$TBA"
 };
 
 

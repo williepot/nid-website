@@ -284,7 +284,7 @@
 .deal {
   background-color: white;
   width: 70%;
-  margin: 0.5em;
+  margin: 1em;
   &-container {
     display: flex;
     width: 100%;
@@ -294,6 +294,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    padding: 1.5em;
     @include standard-box-border;
     &-picture {
       width: 50%;
@@ -301,27 +302,9 @@
       align-items: center;
       @include zero-padding-margin;
       div {
-        position: relative;
-        display: flex;
-        padding: 0.5em;
         img {
           @include zero-padding-margin;
           width: 100%;
-        }
-        .discount {
-          position: absolute;
-          justify-content: center;
-          align-items: center;
-          top: 0.75em;
-          right: 0.75em;
-          background-color: yellow;
-          height: 4.5em;
-          width: 4.5em;
-          border-radius: 2.25em;
-          h4 {
-            font-family: sans-serif;
-            color: firebrick;
-          }
         }
       }
     }
@@ -331,18 +314,49 @@
         display: flex;
         flex-direction: column;
       }
-      &-heading {
-        padding: 1.5em;
+      &-purchase {
         text-align: center;
+        padding-left: 1.5em;
+        .product-buy-price {
+          padding: 0em 1em 1em 1em;
+        }
+      }
+      &-discount {
+        text-align: right;
+        background-color: yellow;
+      }
+      &-heading {
+        display: flex;
+        align-items: center;
+        padding: 0em 0em 1em 0em;
         h3 {
+          width: 75%;
+          text-align: center;
           @include zero-padding-margin;
+        }
+        div {
+          @include zero-padding-margin;
+          width: 25%;
+          height: 2em;
+          line-height: 2em;
+          color: white;
+          text-align: center;
+          font-family: Fugaz One;
+          font-size: 1.5em;
+          font-weight: bolder;
+          border-radius: 0.25em;
+
+          background: #ffb347; /* fallback for old browsers */
+          background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
       }
       &-info {
         display: flex;
         justify-content: center;
         div {
-          width: 60%;
+          width: 70%;
           line-height: 1.5em;
           table {
             span {
@@ -359,19 +373,9 @@
           }
         }
       }
-      &-purchase {
-        text-align: center;
-        padding: 2em;
-      }
     }
   }
   &:hover {
-    border: 1px solid #fba69c;
     box-shadow: 0 0.0625em 0.3125em rgba(254,87,87,0.9);
-    .discount {
-      height: 5.5em;
-      width: 5.5em;
-      border-radius: 2.75em;
-    }
   }
 }

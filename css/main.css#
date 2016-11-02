@@ -73,13 +73,7 @@
   .deal-content {
     flex-direction: column !important; }
     .deal-content-offer-info div {
-      width: 90% !important; }
-    .deal-content-offer-purchase {
-      padding-left: 0em !important; }
-    .deal-content-offer-heading {
-      padding-top: 0.5em !important; }
-      .deal-content-offer-heading div {
-        font-size: 1.2em !important; } }
+      width: 90% !important; } }
 @media only screen and (max-width: 565px) {
   .header-content-left {
     display: none; }
@@ -258,16 +252,9 @@
     width: 100% !important; }
   .deal-content-offer-container {
     width: 100% !important; } }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 330px) {
   .deal {
-    width: 100% !important; }
-    .deal-content-offer-heading h3 {
-      width: 78% !important; }
-    .deal-content-offer-heading div {
-      font-size: 0.85em !important;
-      height: 2.5em !important;
-      width: 22% !important;
-      line-height: 2.5em !important; } }
+    width: 100% !important; } }
 .cust-flex-inline-container {
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -930,7 +917,7 @@
 .deal {
   background-color: white;
   width: 70%;
-  margin: 1em; }
+  margin: 0.5em; }
   .deal-container {
     display: flex;
     width: 100%;
@@ -939,7 +926,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 1.5em;
     border: 1px solid #d2d5d5;
     box-shadow: 0 0.0625em 0.3125em rgba(0, 0, 0, 0.2); }
     .deal-content-picture {
@@ -948,54 +934,36 @@
       align-items: center;
       padding: 0em 0em 0em 0em !important;
       margin: 0em 0em 0em 0em !important; }
-      .deal-content-picture div img {
-        padding: 0em 0em 0em 0em !important;
-        margin: 0em 0em 0em 0em !important;
-        width: 100%; }
+      .deal-content-picture div {
+        display: flex;
+        padding-left: 1em; }
+        .deal-content-picture div img {
+          padding: 0em 0em 0em 0em !important;
+          margin: 0em 0em 0em 0em !important;
+          width: 100%; }
     .deal-content-offer-container {
       width: 50%;
       display: flex;
       flex-direction: column; }
     .deal-content-offer-purchase {
       text-align: center;
-      padding-left: 1.5em; }
-      .deal-content-offer-purchase .product-buy-price {
-        padding: 0em 1em 1em 1em; }
+      background-color: red; }
+    .deal-content-offer-buy {
+      background-color: red; }
     .deal-content-offer-discount {
       text-align: right;
       background-color: yellow; }
     .deal-content-offer-heading {
-      display: flex;
-      align-items: center;
-      padding: 0em 0em 1em 0em; }
+      padding: 1.5em;
+      text-align: center; }
       .deal-content-offer-heading h3 {
-        width: 75%;
-        text-align: center;
         padding: 0em 0em 0em 0em !important;
         margin: 0em 0em 0em 0em !important; }
-      .deal-content-offer-heading div {
-        padding: 0em 0em 0em 0em !important;
-        margin: 0em 0em 0em 0em !important;
-        width: 25%;
-        height: 2em;
-        line-height: 2em;
-        color: white;
-        text-align: center;
-        font-family: Fugaz One;
-        font-size: 1.5em;
-        font-weight: bolder;
-        border-radius: 0.25em;
-        background: #ffb347;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #ffb347, #ffcc33);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #ffb347, #ffcc33);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
     .deal-content-offer-info {
       display: flex;
       justify-content: center; }
       .deal-content-offer-info div {
-        width: 70%;
+        width: 60%;
         line-height: 1.5em; }
         .deal-content-offer-info div table span {
           font-size: 2em;
@@ -1007,6 +975,10 @@
           margin: 0em 0em 0em 0em !important; }
   .deal:hover {
     box-shadow: 0 0.0625em 0.3125em rgba(254, 87, 87, 0.9); }
+
+.test {
+  text-align: center;
+  background-color: red; }
 
 .jumbotron-text {
   padding: 60px 10px 0px 10px;
@@ -1194,4 +1166,4 @@ td {
     width: 35%;
     min-width: 195px; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css%23.map */
