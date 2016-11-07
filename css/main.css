@@ -441,6 +441,8 @@
       display: inline;
       padding: 0px 5px 0px 5px;
       height: 48px !important; }
+      .footer-social-icon a {
+        text-decoration: none !important; }
       .footer-social-icon img {
         width: 48px; }
   .footer-nav {
@@ -451,7 +453,7 @@
     .footer-nav-link {
       display: inline;
       text-align: center;
-      padding: 40px 10px 0px 10px;
+      margin: 40px 10px 0px 10px;
       color: #485563; }
 
 .navbar-customize {
