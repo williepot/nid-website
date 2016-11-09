@@ -981,7 +981,7 @@
         width: 25%;
         height: 2em;
         line-height: 2em;
-        color: white;
+        color: #FF0000;
         text-align: center;
         font-family: Fugaz One;
         font-size: 1.5em;
@@ -1144,7 +1144,7 @@
   background-size: cover !important; }
 
 .pricing {
-  color: darkgray;
+  color: #595959;
   font-size: 2em; }
 
 .glyphicon-ok {

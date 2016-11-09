@@ -1,16 +1,16 @@
 var products = {
-    "amado-s-garcinia": "$16.99",
-    "amado-fiber": "$21.79",
-    "amado-tea": "$36.99",
-    "amado-shireru": "$21.79",
-    "bsecret-cream": "$10.49",
-    "bsecret-mask": "$10.49",
-    "bsecret-congasia": "$11.49",
-    "deal-1" : "$TBA",
-    "deal-2" : "$TBA",
-    "deal-3" : "$TBA",
-    "deal-4" : "$TBA",
-    "deal-5" : "$TBA"
+    "amado-s-garcinia": "$19.99",
+    "amado-fiber": "$25.99",
+    "amado-tea": "$43.99",
+    "amado-shireru": "$25.99",
+    "bsecret-cream": "$12.49",
+    "bsecret-mask": "$12.49",
+    "bsecret-congasia": "$13.79",
+    "deal-1" : "$22.48",
+    "deal-2" : "$99.99",
+    "deal-3" : "$43.39",
+    "deal-4" : "$73.99",
+    "deal-5" : "$109.99"
 };
 
 
